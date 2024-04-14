@@ -17,6 +17,7 @@ services:
       - MYSQL_USER=app
       - MYSQL_PASSWORD=password
       - MYSQL_DATABASE=test
+      - TZ=Asia/Tokyo
     depends_on:
       - database
     volumes:
